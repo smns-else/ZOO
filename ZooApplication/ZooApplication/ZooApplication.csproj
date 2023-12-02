@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnimalProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnimalProfile.Designer.cs">
+      <DependentUpon>AnimalProfile.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserProfile.cs">
       <SubType>Form</SubType>
     </Compile>
