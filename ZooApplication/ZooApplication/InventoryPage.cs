@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ZooApplication
 {
-    public partial class Form1 : Form
+    public partial class InventoryPage : Form
     {
-        public Form1()
+        public InventoryPage()
         {
             InitializeComponent();
         }

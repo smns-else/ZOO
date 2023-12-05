@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>ZooApplication</RootNamespace>
     <AssemblyName>ZooApplication</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -52,6 +53,33 @@
     <Compile Include="AnimalProfile.Designer.cs">
       <DependentUpon>AnimalProfile.cs</DependentUpon>
     </Compile>
+    <Compile Include="CheckingData.cs" />
+    <Compile Include="FoodTimetible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoodTimetible.Designer.cs">
+      <DependentUpon>FoodTimetible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadingData.cs" />
+    <Compile Include="MedicalTimetable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MedicalTimetable.Designer.cs">
+      <DependentUpon>MedicalTimetable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryPage.Designer.cs">
+      <DependentUpon>InventoryPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SavingData.cs" />
     <Compile Include="UserProfile.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +106,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -87,9 +116,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ZooApplication
 {
-    public partial class MedicalTimetable : Form
+    public partial class Form1 : Form
     {
-        public MedicalTimetable()
+        public Form1()
         {
             InitializeComponent();
         }
