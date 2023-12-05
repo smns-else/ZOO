@@ -1,6 +1,6 @@
 ﻿namespace ZooApplication
 {
-    partial class InventoryPage
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.

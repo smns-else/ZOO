@@ -1,6 +1,6 @@
 ﻿namespace ZooApplication
 {
-    partial class Form1
+    partial class MedicalTimetable
     {
         /// <summary>
         /// Required designer variable.
